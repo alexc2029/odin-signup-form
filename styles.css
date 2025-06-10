@@ -1,0 +1,70 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+* {
+	margin: 0;
+}
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+p {
+	text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-wrap: balance;
+}
+
+@font-face {
+	font-family: NorseBold;
+	src: url("Norse-Bold.otf");
+}
+
+body {
+	display: flex;
+	flex-direction: row;
+	height: 100vh;
+}
+
+div.left-container {
+	background-image: url("halie-west-25xggax4bSA-unsplash.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 100%;
+	flex: 1 1 30%;
+}
+
+div.right-container {
+	height: 100%;
+	flex: 1 1 70%;
+}
