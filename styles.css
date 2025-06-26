@@ -73,7 +73,7 @@ div.right-container {
 	height: 100%;
 	flex: 1 1 70%;
 	font-family: Arial, Helvetica, sans-serif;
-	background-color: rgb(245, 244, 244);
+	background-color: rgb(248, 248, 248);
 }
 
 .logo-container {
@@ -126,7 +126,7 @@ p {
 	margin-bottom: 25px;
 	background-color: white;
 	box-shadow: 0 4px 3px -3px rgba(0, 0, 0, 0.2);
-	padding: 15px 30px;
+	padding: 30px;
 }
 
 header,
@@ -141,4 +141,36 @@ header,
 
 h1 {
 	margin-bottom: 15px;
+}
+
+form {
+	display: flex;
+	flex-flow: row wrap;
+	gap: 15px 50px;
+	width: 70%;
+}
+
+form > div {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	font-size: clamp(0.5rem, 0.3rem + 1vw, 0.65rem);
+}
+
+input {
+	outline: none;
+	background-color: rgb(251, 251, 251);
+	border: 2px solid #e5e7eb;
+	border-radius: 5px;
+	width: 235px;
+}
+
+input:focus,
+input:focus-visible {
+	border: 2px solid blue;
+	box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+input:invalid {
+	border: 2px solid red;
 }
