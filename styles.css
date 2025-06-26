@@ -114,11 +114,6 @@ button {
 	border: 0;
 	border-radius: 5px;
 	padding: 5px 20px;
-	margin-bottom: 15px;
-}
-
-p {
-	margin-bottom: 15px;
 }
 
 .form-container {
@@ -139,7 +134,9 @@ header,
 	padding: 0 30px;
 }
 
-h1 {
+h1,
+p,
+button {
 	margin-bottom: 15px;
 }
 
