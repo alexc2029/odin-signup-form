@@ -25,7 +25,7 @@
 			</header>
 			<div class="form-container">
 				<h1>Let's do this!</h1>
-				<form>
+				<form method="post" id="account">
 					<div>
 						<label for="first-name">FIRST NAME</label
 						><input type="text" id="first-name" name="first-name" />
@@ -57,8 +57,10 @@
 				</form>
 			</div>
 			<div class="buttons">
-				<button>Create Account</button>
-				<p>Already have an account? <span id="log-in">Log in</span></p>
+				<button type="submit" form="account">Create Account</button>
+				<p>
+					Already have an account? <span class="log-in">Log in</span>
+				</p>
 			</div>
 		</div>
 	</body>
